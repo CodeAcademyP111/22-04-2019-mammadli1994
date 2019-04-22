@@ -1,0 +1,107 @@
+.text {
+    /* color: rgba(255, 255, 0, 0.5);
+    color: #ffff00; */
+    background-color: cadetblue;
+    color: white;
+    /* border-top-style: solid;
+    border-top-width: 3px;
+    border-top-color: black;
+    border-bottom-style: dotted;
+    border-bottom-width: 2px;
+    border-bottom-color: red; */
+
+    /* border-style: solid dashed dotted double;
+    border-width: 2px 3px 4px 5px;
+    border-color: black green blue red; */
+
+    border: 2px solid #163a3c;
+    border-radius: 10px 0 10px 10px;
+    /* width: 50%; */
+    /* height: 100vh; */
+    padding: 10px 15px;
+    overflow: auto;
+    font-family: 'Roboto',
+        sans-serif;
+}
+
+body {
+    /* background-image: url('../img/ayi.jpg');
+    background-repeat: no-repeat;
+    background-position: 20% 60%; */
+    /* height: 100vh; */
+    /* height: 5000px;
+    background-attachment: fixed; */
+    /* background-size: 20% 20%; */
+}
+
+.circle {
+    margin: 0 auto;
+    width: 200px;
+    height: 100px;
+    background-color: chocolate;
+    border-radius: 50%;
+}
+
+.wrapper {
+    width: 50%;
+}
+
+.border-left {
+    background-color: #00BCD4;
+    color: white;
+    padding: 10px;
+    border-left: 3px solid #3F51B5;
+    width: 30%;
+    font-family: 'Oswald',
+        sans-serif;
+}
+
+.font-change {
+    font-family: Arrus;
+}
+
+/* social */
+
+.social {
+    padding: 0px;
+    margin: 50px;
+    list-style-type: none;
+}
+
+.social li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social li a {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50%;
+}
+
+.social li a i {
+    font-size: 30px;
+}
+
+.social li a .fa-facebook {
+    color: #3b5998;
+}
+
+.social li a .fa-twitter {
+    color: #1da1f2;
+}
+
+.social li a .fa-instagram {
+    color: #833ab4;
+}
+
+.social li a .fa-youtube {
+    color: #ff0000;
+}
+
+.social li a .fa-linkedin {
+    color: #0077b5;
+}
