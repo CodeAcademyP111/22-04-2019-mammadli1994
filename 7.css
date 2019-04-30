@@ -1,0 +1,10 @@
+div{
+    margin:50px 70px;
+
+}
+div p{
+    margin: -25% 2%;
+    color: rgb(185, 7, 7);
+    font-family: 'BioRhyme Expanded', serif;
+    font-size: 30px;
+}
